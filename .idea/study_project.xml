@@ -1,0 +1,2972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="course">
+        <Course>
+          <option name="adaptive" value="false" />
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseDirectory" value="C:\Users\tal\.IdeaIC2016.2\config\courses\Kotlin Koans" />
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="PyCharm" />
+          <option name="description" value="Kotlin Koans" />
+          <option name="id" value="0" />
+          <option name="language" value="kotlin" />
+          <option name="lessons">
+            <list>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Introduction" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Hello, world!" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="22" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="22" />
+                                      <option name="possibleAnswer" value="&quot;OK&quot;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Java to Kotlin conversion" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="JavaCode.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="JavaCode.java" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="56" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="56" />
+                                      <option name="offset" value="0" />
+                                      <option name="possibleAnswer" value="fun toJSON(collection: Collection&lt;Int&gt;): String {&#10;    val sb = StringBuilder()&#10;    sb.append(&quot;[&quot;)&#10;    val iterator = collection.iterator()&#10;    while (iterator.hasNext())&#10;    {&#10;        val element = iterator.next()&#10;        sb.append(element)&#10;        if (iterator.hasNext())&#10;        {&#10;            sb.append(&quot;, &quot;)&#10;        }&#10;    }&#10;    sb.append(&quot;]&quot;)&#10;    return sb.toString()&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="Named arguments" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="68" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="68" />
+                                      <option name="possibleAnswer" value="prefix = &quot;[&quot;, postfix = &quot;]&quot;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="Default arguments" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="56" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="56" />
+                                      <option name="offset" value="0" />
+                                      <option name="possibleAnswer" value="fun foo(name: String, number: Int = 42, toUpperCase: Boolean = false)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Lambdas" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="74" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="74" />
+                                      <option name="possibleAnswer" value="it % 2 == 0" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="6" />
+                      <option name="name" value="Strings" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="92" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="92" />
+                                      <option name="possibleAnswer" value="&quot;&quot;&quot;\d{2} ${month} \d{4}&quot;&quot;&quot;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="7" />
+                      <option name="name" value="Data classes" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="12" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="12" />
+                                      <option name="offset" value="0" />
+                                      <option name="possibleAnswer" value="data class Person(val name: String, val age: Int)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="8" />
+                      <option name="name" value="Nullable types" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="90" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="90" />
+                                      <option name="possibleAnswer" value="val email = client?.personalInfo?.email&#10;    if (email != null &amp;&amp; message != null) {&#10;        mailer.sendMessage(email, message)&#10;    }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="9" />
+                      <option name="name" value="Smart casts" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="72" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="72" />
+                                      <option name="possibleAnswer" value="expr.value" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="101" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="101" />
+                                      <option name="possibleAnswer" value="eval(expr.left) + eval(expr.right)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="10" />
+                      <option name="name" value="Extension functions" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="30" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="30" />
+                                      <option name="possibleAnswer" value="RationalNumber(this, 1)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="78" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="78" />
+                                      <option name="possibleAnswer" value="RationalNumber(first, second)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="11" />
+                      <option name="name" value="Object expressions" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="9" />
+                                          <option name="offset" value="120" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="9" />
+                                      <option name="offset" value="120" />
+                                      <option name="possibleAnswer" value="object : Comparator&lt;Int&gt; {&#10;    override fun compare(x: Int, y: Int) = y - x&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="12" />
+                      <option name="name" value="SAM conversions" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="130" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="130" />
+                                      <option name="possibleAnswer" value="y - x" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="13" />
+                      <option name="name" value="Extensions on collections" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="52" />
+                                          <option name="offset" value="58" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="52" />
+                                      <option name="offset" value="58" />
+                                      <option name="possibleAnswer" value=".sortedDescending()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="Conventions" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Comparison" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="97" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="97" />
+                                      <option name="possibleAnswer" value="override fun compareTo(other: MyDate) = when {&#10;        year != other.year -&gt; year - other.year&#10;        month != other.month -&gt; month - other.month&#10;        else -&gt; dayOfMonth - other.dayOfMonth&#10;    }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="In range" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="MyDate.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="MyDate.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="60" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="60" />
+                                      <option name="possibleAnswer" value=" {&#10;    operator fun contains(item: MyDate): Boolean = start &lt;= item &amp;&amp; item &lt;= endInclusive&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="Range to" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="MyDate.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="MyDate.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="45" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="45" />
+                                      <option name="possibleAnswer" value="DateRange(this, other)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="For loop" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="DateUtil.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="DateUtil.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="MyDate.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="MyDate.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="51" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="51" />
+                                      <option name="offset" value="0" />
+                                      <option name="possibleAnswer" value="class DateRange(val start: MyDate, val end: MyDate): Iterable&lt;MyDate&gt;{&#10;    override fun iterator(): Iterator&lt;MyDate&gt; = DateIterator(this)&#10;}&#10;&#10;class DateIterator(val dateRange:DateRange) : Iterator&lt;MyDate&gt; {&#10;    var current: MyDate = dateRange.start&#10;    override fun next(): MyDate {&#10;        val result = current&#10;        current = current.nextDay()&#10;        return result&#10;    }&#10;    override fun hasNext(): Boolean = current &lt;= dateRange.end&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Operators overloading" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="DateUtil.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="DateUtil.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="69" />
+                                          <option name="offset" value="139" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="69" />
+                                      <option name="offset" value="139" />
+                                      <option name="possibleAnswer" value="&#10;operator fun MyDate.plus(timeInterval: TimeInterval) = addTimeIntervals(timeInterval, 1)&#10;&#10;class RepeatedTimeInterval(val timeInterval: TimeInterval, val number: Int)&#10;operator fun TimeInterval.times(number: Int) = RepeatedTimeInterval(this, number)&#10;&#10;operator fun MyDate.plus(timeIntervals: RepeatedTimeInterval) = addTimeIntervals(timeIntervals.timeInterval, timeIntervals.number)&#10;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="64" />
+                                          <option name="offset" value="318" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="64" />
+                                      <option name="offset" value="318" />
+                                      <option name="possibleAnswer" value="return today + YEAR * 2 + WEEK * 3 + DAY * 5" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="6" />
+                      <option name="name" value="Destructuring declarations" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="0" />
+                                      <option name="possibleAnswer" value="data " />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="7" />
+                      <option name="name" value="Invoke" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="122" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="122" />
+                                      <option name="possibleAnswer" value="numberOfInvocations++&#10;        return this" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="3" />
+                <option name="name" value="Collections" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Introduction" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="46" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="46" />
+                                      <option name="possibleAnswer" value="customers.toSet()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Filter map" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="101" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="101" />
+                                      <option name="possibleAnswer" value="customers.map { it.city }.toSet()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="226" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="226" />
+                                      <option name="possibleAnswer" value="customers.filter { it.city == city }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="All Any and other predicates" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="113" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="113" />
+                                      <option name="possibleAnswer" value="customers.all { it.city == city }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="238" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="238" />
+                                      <option name="possibleAnswer" value="customers.any { it.city == city }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="347" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="347" />
+                                      <option name="possibleAnswer" value="customers.count { it.city == city }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="484" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="484" />
+                                      <option name="possibleAnswer" value="customers.find { it.city == city }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="FlatMap" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="99" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="99" />
+                                      <option name="possibleAnswer" value="orders.flatMap { it.products }.toSet()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="222" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="222" />
+                                      <option name="possibleAnswer" value="customers.flatMap { it.getOrderedProducts() }.toSet()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Max min" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="135" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="135" />
+                                      <option name="possibleAnswer" value="customers.maxBy { it.orders.size }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="261" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="261" />
+                                      <option name="possibleAnswer" value="orders.flatMap { it.products }.maxBy { it.price }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="6" />
+                      <option name="name" value="Sort" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="146" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="146" />
+                                      <option name="possibleAnswer" value="customers.sortedBy { it.orders.size }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="7" />
+                      <option name="name" value="Sum" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="185" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="185" />
+                                      <option name="possibleAnswer" value="orders.flatMap { it.products }.sumByDouble { it.price }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="8" />
+                      <option name="name" value="GroupBy" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="114" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="114" />
+                                      <option name="possibleAnswer" value="customers.groupBy { it.city }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="9" />
+                      <option name="name" value="Partition" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="147" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="147" />
+                                      <option name="possibleAnswer" value="customers.filter {&#10;    val (delivered, undelivered) = it.orders.partition { it.isDelivered }&#10;    undelivered.size &gt; delivered.size&#10;}.toSet()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="10" />
+                      <option name="name" value="Fold" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="136" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="136" />
+                                      <option name="possibleAnswer" value="val allProducts = customers.flatMap { it.orders.flatMap { it.products }}.toSet()&#10;    return customers.fold(allProducts, {&#10;        orderedByAll, customer -&gt;&#10;        orderedByAll.intersect(customer.orders.flatMap { it.products }.toSet())&#10;    })" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="11" />
+                      <option name="name" value="Compound tasks" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="166" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="166" />
+                                      <option name="possibleAnswer" value="return orders.filter { it.isDelivered }.flatMap { it.products }.maxBy { it.price }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="370" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="370" />
+                                      <option name="possibleAnswer" value="return customers.flatMap { it.getOrderedProductsList() }.count { it == product }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="380" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="380" />
+                                      <option name="possibleAnswer" value="fun Customer.getOrderedProductsList(): List&lt;Product&gt; {&#10;    return orders.flatMap { it.products }&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="12" />
+                      <option name="name" value="Get used to new style" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Shop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Shop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="145" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="145" />
+                                      <option name="possibleAnswer" value="s.length" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="221" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="221" />
+                                      <option name="possibleAnswer" value="group.size" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="293" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="293" />
+                                      <option name="possibleAnswer" value="group.size == maximumSizeOfGroup" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="TestShop.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="TestShop.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="4" />
+                <option name="name" value="Properties" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Properties" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="3" />
+                                          <option name="offset" value="95" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="3" />
+                                      <option name="offset" value="95" />
+                                      <option name="possibleAnswer" value="set(v: Int?) {&#10;            field = v&#10;            counter++&#10;        }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Lazy property" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="53" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="53" />
+                                      <option name="possibleAnswer" value="var value: Int? = null" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="110" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="110" />
+                                      <option name="possibleAnswer" value="if (value == null) {&#10;                value = initializer()&#10;            }&#10;            return value!!" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="Delegates examples" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="75" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="75" />
+                                      <option name="possibleAnswer" value="lazy(initializer)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="Delegates how it works" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="MyDate.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="MyDate.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="302" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="302" />
+                                      <option name="possibleAnswer" value="return timeInMillis!!.toDate()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="403" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="403" />
+                                      <option name="possibleAnswer" value="timeInMillis = value.toMillis()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="5" />
+                <option name="name" value="Builders" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Function literals with receiver" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="66" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="66" />
+                                      <option name="possibleAnswer" value="this % 2 == 0" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="112" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="112" />
+                                      <option name="possibleAnswer" value="this % 2 != 0" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="String and map builders" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="26" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="26" />
+                                      <option name="possibleAnswer" value="fun &lt;K, V&gt; buildMap(build: HashMap&lt;K, V&gt;.() -&gt; Unit): Map&lt;K, V&gt; {&#10;    val map = HashMap&lt;K, V&gt;()&#10;    map.build()&#10;    return map&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="The function apply" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="40" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="40" />
+                                      <option name="possibleAnswer" value="f(); return this" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="Html builders" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="84" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="84" />
+                                      <option name="possibleAnswer" value="(color = getTitleColor())" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="389" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="389" />
+                                      <option name="possibleAnswer" value="for ((index, product) in products.withIndex()) {&#10;                tr {&#10;                    td (color = getCellColor(index, 0)) {&#10;                        text(product.description)&#10;                    }&#10;                    td (color = getCellColor(index, 1)) {&#10;                        text(product.price)&#10;                    }&#10;                    td (color = getCellColor(index, 2)) {&#10;                        text(product.popularity)&#10;                    }&#10;                }&#10;            }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="data.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="data.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="demo.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="demo.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="html.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="html.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Builders how it works" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="42" />
+                                          <option name="offset" value="91" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="42" />
+                                      <option name="offset" value="91" />
+                                      <option name="possibleAnswer" value="1 to c, 2 to b, 3 to b, 4 to c" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="6" />
+                <option name="name" value="Generics" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Generic functions" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="additionalHints">
+                                        <list />
+                                      </option>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="26" />
+                                          <option name="offset" value="20" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="26" />
+                                      <option name="offset" value="20" />
+                                      <option name="possibleAnswer" value="fun &lt;T, C: MutableCollection&lt;T&gt;&gt; Collection&lt;T&gt;.partitionTo(first: C, second: C, predicate: (T) -&gt; Boolean): Pair&lt;C, C&gt; {&#10;    for (element in this) {&#10;        if (predicate(element)) {&#10;            first.add(element)&#10;        } else {&#10;            second.add(element)&#10;        }&#10;    }&#10;    return Pair(first, second)&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="taskText" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Task.kt" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+            </list>
+          </option>
+          <option name="name" value="Kotlin Koans" />
+          <option name="updateDate" />
+        </Course>
+      </option>
+      <option name="enableTestingFromSamples" value="true" />
+      <option name="toolWindowMode" value="TEXT" />
+      <option name="turnEditingMode" value="false" />
+      <option name="user">
+        <StepicUser>
+          <option name="email" value="" />
+          <option name="firstName" value="" />
+          <option name="id" value="-1" />
+          <option name="lastName" value="" />
+        </StepicUser>
+      </option>
+      <option name="VERSION" value="3" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="myInvisibleFiles">
+        <list />
+      </option>
+      <option name="myShouldUseJavaFx" value="true" />
+    </StudyTaskManager>
+  </component>
+</project>
